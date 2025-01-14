@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COR 1st Sem 2023-2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Certificate Of Registration 1st 2023-2024</h1>
+    <button id="scheduleBtn">View Schedule</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Subject</th>
+                <th>Lec</th>
+                <th>Lab</th>
+                <th>Description</th>
+                <th>Time</th>
+                <th>Day</th>
+                <th>Room</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BSCS123139</td>
+                <td>CS 121</td>
+                <td>3</td>
+                <td>0</td>
+                <td>OBJECT ORIENTED PROGRAMMING</td>
+                <td>08:30AM-10:00AM</td>
+                <td>MTH</td>
+                <td>LR 1</td>
+            </tr>
+            <tr>
+                <td>BSCS123139</td>
+                <td>CS 121</td>
+                <td>0</td>
+                <td>1</td>
+                <td>OBJECT ORIENTED PROGRAMMING</td>
+                <td>04:00PM-07:00PM</td>
+                <td>T</td>
+                <td>LAB 1</td>
+            </tr>
+            <tr>
+                <td>BSCS123142</td>
+                <td>CS 123</td>
+                <td>3</td>
+                <td>0</td>
+                <td>DISCRETE STRUCTURES 2</td>
+                <td>04:00PM-05:30PM</td>
+                <td>WS</td>
+                <td>LR 3</td>
+            </tr>
+            <tr>
+                <td>BSCS123147</td>
+                <td>CC 103</td>
+                <td>3</td>
+                <td>0</td>
+                <td>DATA STRUCTURES AND ALGORITHMS</td>
+                <td>07-00AM-08:30AM</td>
+                <td>MTH</td>
+                <td>LR 1</td>
+            </tr>
+            <tr>
+                <td>BSCS123147</td>
+                <td>CC 103</td>
+                <td>0</td>
+                <td>1</td>
+                <td>DATA STRUCTURES AND ALGORITHMS</td>
+                <td>04:00PM-07:00PM</td>
+                <td>M</td>
+                <td>LAB 1</td>
+            </tr>
+            <tr>
+                <td>BSCS123149</td>
+                <td>MATH 104</td>
+                <td>3</td>
+                <td>0</td>
+                <td>CALCULUS 2</td>
+                <td>02:30PM-04:00PM</td>
+                <td>WS</td>
+                <td>LR 1</td>
+            </tr>
+            <tr>
+                <td>BSCS123152</td>
+                <td>PATHFIT 3</td>
+                <td>2</td>
+                <td>0</td>
+                <td>SPORTS</td>
+                <td>03:00PM-05:00PM</td>
+                <td>F</td>
+                <td>GYM</td>
+            </tr>
+            <tr>
+                <td>BSCS123438</td>
+                <td>CS 105</td>
+                <td>3</td>
+                <td>0</td>
+                <td>DIGITAL DESIGN</td>
+                <td>10:00AM-11:30AM</td>
+                <td>TF</td>
+                <td>LR 3</td>
+            </tr>
+            <tr>
+                <td>BSCS123438</td>
+                <td>CS 105</td>
+                <td>0</td>
+                <td>1</td>
+                <td>DIGITAL DESIGN</td>
+                <td>01:00PM-04-00PM</td>
+                <td>M</td>
+                <td>LR 3</td>
+            </tr>
+            <tr>
+                <td>BSCS123463</td>
+                <td>CS 127</td>
+                <td>0</td>
+                <td>1</td>
+                <td>HUMAN COMPUTER INTERACTION</td>
+                <td>10:00AM-01:00PM</td>
+                <td>W</td>
+                <td>LR 3</td>
+            </tr>
+            <tr>
+                <td>BSCS123511</td>
+                <td>LIT 101</td>
+                <td>3</td>
+                <td>0</td>
+                <td>PHILIPPINE LITERATURE</td>
+                <td>08:30AM-10:00AM</td>
+                <td>TF</td>
+                <td>CLA</td>
+            </tr>
+            <tr>
+                <td>BSCS123588</td>
+                <td>EPIC 1</td>
+                <td>0</td>
+                <td>3</td>
+                <td>EPIC START 1-B</td>
+                <td>10:00AM-11:30AM</td>
+                <td>MTH</td>
+                <td>EPIC LAB</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <a href="main.html" style = "display:flex; justify-content: flex-end;">
+        <button>Back</button>
+    </a>
+
+    <!-- Modal -->
+    <div class="modal" id="scheduleModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Room</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>07-00AM-08:30AM	</td>
+                        <td>CC 103</td>
+                        <td>MTH</td>
+                        <td>LR 1</td>
+                    </tr>
+                    <tr>
+                        <td>08:30AM-10:00AM</td>
+                        <td>CS 121</td>
+                        <td>MTH</td>
+                        <td>LR 1</td>
+                    </tr>
+                    <tr>
+                        <td>08:30AM-10:00AM</td>
+                        <td>LIT 101</td>
+                        <td>TF</td>
+                        <td>CLA</td>
+                    </tr>
+                    <tr>
+                        <td>10:00AM-11:30AM</td>
+                        <td>EPIC B</td>
+                        <td>MTH</td>
+                        <td>EPIC LAB</td>
+                    </tr>
+                    <tr>
+                        <td>10:00AM-11:30AM</td>
+                        <td>CS 105</td>
+                        <td>TF</td>
+                        <td>LR 3</td>
+                    </tr>
+                    <tr>
+                        <td>10:00AM-01:00PM</td>
+                        <td>CS 127</td>
+                        <td>W</td>
+                        <td>LR 3</td>
+                    </tr>
+                    <tr>
+                        <td>01:00PM-04:00PM</td>
+                        <td>CS 105</td>
+                        <td>M</td>
+                        <td>LR 3</td>
+                    </tr>
+                    <tr>
+                        <td>02:30PM-04:00PM</td>
+                        <td>MATH 104</td>
+                        <td>WS</td>
+                        <td>LR 1</td>
+                    </tr>
+                    <tr>
+                        <td>03:00PM-05:00PM</td>
+                        <td>PATHFIT 3</td>
+                        <td>F</td>
+                        <td>GYM</td>
+                    </tr>
+                    <tr>
+                        <td>04:00PM-05:30PM</td>
+                        <td>CS 123</td>
+                        <td>WS</td>
+                        <td>LR 3</td>
+                    </tr>
+                    <tr>
+                        <td>04:00PM-07:00PM</td>
+                        <td>CS 121</td>
+                        <td>T</td>
+                        <td>LAB 1</td>
+                    </tr>
+                    <tr>
+                        <td>04:00PM-07:00PM</td>
+                        <td>CC 103</td>
+                        <td>M</td>
+                        <td>LAB 1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const scheduleBtn = document.getElementById("scheduleBtn");
+        const scheduleModal = document.getElementById("scheduleModal");
+        const closeModal = document.getElementById("closeModal");
+
+        // Show modal when button is clicked
+        scheduleBtn.addEventListener("click", () => {
+            scheduleModal.style.display = "flex";
+        });
+
+        // Hide modal when close button is clicked
+        closeModal.addEventListener("click", () => {
+            scheduleModal.style.display = "none";
+        });
+
+        // Hide modal when clicking outside modal content
+        window.addEventListener("click", (event) => {
+            if (event.target === scheduleModal) {
+                scheduleModal.style.display = "none";
+            }
+        });
+    </script>
+
+</body>
+</html>

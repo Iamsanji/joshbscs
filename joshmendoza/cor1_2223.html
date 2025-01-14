@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COR 1st Sem 2022-2023</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Certificate Of Registration 1st 2022-2023</h1>
+    <button id="scheduleBtn">View Schedule</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Subject</th>
+                <th>Lec</th>
+                <th>Lab</th>
+                <th>Description</th>
+                <th>Time</th>
+                <th>Day</th>
+                <th>Room</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BPE122026P</td>
+                <td>PATHFIT 1</td>
+                <td>2</td>
+                <td>0</td>
+                <td>Movement Competency Training</td>
+                <td>07:00AM-09:00AM</td>
+                <td>F</td>
+                <td>GYM</td>
+            </tr>
+            <tr>
+                <td>BSCS122389</td>
+                <td>MATH 100</td>
+                <td>3</td>
+                <td>0</td>
+                <td>Mathematics in the Modern World</td>
+                <td>04:00PM-05:30PM</td>
+                <td>WS</td>
+                <td>CSM 11</td>
+            </tr>
+            <tr>
+                <td>BSCS122390</td>
+                <td>FIL 101</td>
+                <td>3</td>
+                <td>0</td>
+                <td>Wika at Kultura sa Mapayapang Lipunan</td>
+                <td>05:30PM-07:00PM</td>
+                <td>WS</td>
+                <td>CLA</td>
+            </tr>
+            <tr>
+                <td>BSCS122832</td>
+                <td>CC 100</td>
+                <td>2</td>
+                <td>0</td>
+                <td>Introduction to Computing</td>
+                <td>02:00PM-04:00PM</td>
+                <td>M</td>
+                <td>LR 2</td>
+            </tr>
+            <tr>
+                <td>BSCS122832</td>
+                <td>CC 100</td>
+                <td>0</td>
+                <td>1</td>
+                <td>Introduction to Computing</td>
+                <td>11:30AM-01:00PM</td>
+                <td>MTH</td>
+                <td>LAB 1</td>
+            </tr>
+            <tr>
+                <td>BSCS122857</td>
+                <td>CC 101</td>
+                <td>3</td>
+                <td>0</td>
+                <td>Computer Programming 1</td>
+                <td>08:30AM-10:00AM</td>
+                <td>WS</td>
+                <td>LR 1</td>
+            </tr>
+            <tr>
+                <td>BSCS122857</td>
+                <td>CC 101</td>
+                <td>0</td>
+                <td>1</td>
+                <td>Computer Programming 1</td>
+                <td>12:30PM-03:30PM</td>
+                <td>T</td>
+                <td>LAB 1</td>
+            </tr>
+            <tr>
+                <td>BSCS122880</td>
+                <td>CAS 101</td>
+                <td>3</td>
+                <td>0</td>
+                <td>Purposive Communication</td>
+                <td>01:00PM-02:30PM</td>
+                <td>WS</td>
+                <td>CLA</td>
+            </tr>
+            <tr>
+                <td>BSCS122896</td>
+                <td>US 101</td>
+                <td>3</td>
+                <td>0</td>
+                <td>Understanding the Self</td>
+                <td>10:00AM-11:30AM</td>
+                <td>WS</td>
+                <td>CLA</td>
+            </tr>
+            <tr>
+                <td>BSCS122942</td>
+                <td>EUTH A</td>
+                <td>2</td>
+                <td>0</td>
+                <td>Euthenics A</td>
+                <td>07:00AM-09:00AM</td>
+                <td>T</td>
+                <td>EUTH RM</td>
+            </tr>
+            <tr>
+                <td>ROTC122137</td>
+                <td>CWTS 1</td>
+                <td>3</td>
+                <td>0</td>
+                <td>Civic Welfare Training Service</td>
+                <td>08:00AM-11:00AM</td>
+                <td>SUN</td>
+                <td>WMSU Ground</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <a href="main.html" style = "display:flex; justify-content: flex-end;">
+        <button>Back</button>
+    </a>
+
+    <!-- Modal -->
+    <div class="modal" id="scheduleModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Room</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>07:00AM-09:00AM</td>
+                        <td>PATHFIT 1</td>
+                        <td>F</td>
+                        <td>GYM</td>
+                    </tr>
+                    <tr>
+                        <td>08:30AM-10:00AM</td>
+                        <td>CC 101</td>
+                        <td>WS</td>
+                        <td>LR 1</td>
+                    </tr>
+                    <tr>
+                        <td>10:00AM-11:30AM</td>
+                        <td>US 101</td>
+                        <td>WS</td>
+                        <td>CLA</td>
+                    </tr>
+                    <tr>
+                        <td>11:30AM-01:00PM</td>
+                        <td>CC 100 Lab</td>
+                        <td>MTH</td>
+                        <td>LAB 1</td>
+                    </tr>
+                    <tr>
+                        <td>01:00PM-02:30PM</td>
+                        <td>CAS 101</td>
+                        <td>WS</td>
+                        <td>CLA</td>
+                    </tr>
+                    <tr>
+                        <td>02:00PM-04:00PM</td>
+                        <td>CC 100</td>
+                        <td>M</td>
+                        <td>LR 2</td>
+                    </tr>
+                    <tr>
+                        <td>04:00PM-05:30PM</td>
+                        <td>MATH 100</td>
+                        <td>WS</td>
+                        <td>CSM 11</td>
+                    </tr>
+                    <tr>
+                        <td>05:30PM-07:00PM</td>
+                        <td>FIL 101</td>
+                        <td>WS</td>
+                        <td>CLA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const scheduleBtn = document.getElementById("scheduleBtn");
+        const scheduleModal = document.getElementById("scheduleModal");
+        const closeModal = document.getElementById("closeModal");
+
+        // Show modal when button is clicked
+        scheduleBtn.addEventListener("click", () => {
+            scheduleModal.style.display = "flex";
+        });
+
+        // Hide modal when close button is clicked
+        closeModal.addEventListener("click", () => {
+            scheduleModal.style.display = "none";
+        });
+
+        // Hide modal when clicking outside modal content
+        window.addEventListener("click", (event) => {
+            if (event.target === scheduleModal) {
+                scheduleModal.style.display = "none";
+            }
+        });
+    </script>
+
+</body>
+</html>

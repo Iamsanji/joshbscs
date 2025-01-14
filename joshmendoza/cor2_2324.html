@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COR 1st Sem 2022-2023</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Certificate Of Registration 2nd 2023-2024</h1>
+    <button id="scheduleBtn">View Schedule</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Subject</th>
+                <th>Lec</th>
+                <th>Lab</th>
+                <th>Description</th>
+                <th>Time</th>
+                <th>Day</th>
+                <th>Room</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BSCS223460</td>
+                <td>CS 120</td>
+                <td>3.00</td>
+                <td>0.00</td>
+                <td>ARCHITECTURE AND ORGANIZATION</td>
+                <td>08:30AM-10:00AM</td>
+                <td>TF</td>
+                <td>LR 1</td>
+            </tr>
+            <tr>
+                <td>BSCS223460</td>
+                <td>CS 120</td>
+                <td>0.00</td>
+                <td>1.00</td>
+                <td>ARCHITECTURE AND ORGANIZATION</td>
+                <td>01:00PM-04:00PM</td>
+                <td>M</td>
+                <td>LAB 1</td>
+            </tr>
+            <tr>
+                <td>BSCS223463</td>
+                <td>CS 122</td>
+                <td>3.00</td>
+                <td>0.00</td>
+                <td>DESIGN AND ANALYSIS OF ALGORITHMS</td>
+                <td>07:00AM-08:30AM</td>
+                <td>TF</td>
+                <td>LR 1</td>
+            </tr>
+            <tr>
+                <td>BSCS223645</td>
+                <td>CS 124</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>PROGRAMMING LANGUAGES</td>
+                <td>03:00PM-05:00PM</td>
+                <td>W</td>
+                <td>LR 3</td>
+            </tr>
+            <tr>
+                <td>BSCS223645</td>
+                <td>CS 124</td>
+                <td>0.00</td>
+                <td>1.00</td>
+                <td>PROGRAMMING LANGUAGES</td>
+                <td>04:00PM-07:00PM</td>
+                <td>S</td>
+                <td>LR 5</td>
+            </tr>
+            <tr>
+                <td>BSCS223665</td>
+                <td>CS 126</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>NETWORKS AND COMMUNICATIONS</td>
+                <td>07:00AM-09:00AM</td>
+                <td>TH</td>
+                <td>LR 5</td>
+            </tr>
+            <tr>
+                <td>BSCS223665</td>
+                <td>CS 126</td>
+                <td>0.00</td>
+                <td>1.00</td>
+                <td>NETWORKS AND COMMUNICATIONS</td>
+                <td>10:00AM-01:00PM</td>
+                <td>TH</td>
+                <td>LAB 1</td>
+            </tr>
+            <tr>
+                <td>BSCS223690</td>
+                <td>CS 128</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>CS ELECTIVE 1</td>
+                <td>01:00PM-03:00PM</td>
+                <td>S</td>
+                <td>LR 3</td>
+            </tr>
+            <tr>
+                <td>BSCS223690</td>
+                <td>CS 128</td>
+                <td>0.00</td>
+                <td>1.00</td>
+                <td>CS ELECTIVE 1</td>
+                <td>05:30PM-07:00PM</td>
+                <td>TF</td>
+                <td>LAB 1</td>
+            </tr>
+            <tr>
+                <td>BSCS223706</td>
+                <td>CC 104</td>
+                <td>3.00</td>
+                <td>0.00</td>
+                <td>INFORMATION MANAGEMENT</td>
+                <td>01:00PM-02:30PM</td>
+                <td>TW</td>
+                <td>LR 3</td>
+            </tr>
+            <tr>
+                <td>BSCS223706</td>
+                <td>CC 104</td>
+                <td>0.00</td>
+                <td>1.00</td>
+                <td>INFORMATION MANAGEMENT</td>
+                <td>07:00AM-10:00AM</td>
+                <td>W</td>
+                <td>LAB 1</td>
+            </tr>
+            <tr>
+                <td>BSCS223732</td>
+                <td>PATHFIT 4</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>OUTDOOR AND ADVENTURE ACTIVITIES</td>
+                <td>01:00PM-03:00PM</td>
+                <td>F</td>
+                <td>GYM</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <a href="main.html" style="display: flex; justify-content: flex-end;">
+        <button>Back</button>
+    </a>
+
+    <!-- Modal -->
+    <div class="modal" id="scheduleModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Room</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>07:00AM-08:30AM</td>
+                        <td>CS 122</td>
+                        <td>TF</td>
+                        <td>LR 1</td>
+                    </tr>
+                    <tr>
+                        <td>07:00AM-09:00AM</td>
+                        <td>CS 126</td>
+                        <td>TH</td>
+                        <td>LR 5</td>
+                    </tr>
+                    <tr>
+                        <td>07:00AM-10:00AM</td>
+                        <td>CC 104</td>
+                        <td>W</td>
+                        <td>LAB 1</td>
+                    </tr>
+                    <tr>
+                        <td>08:30AM-10:00AM</td>
+                        <td>CS 120</td>
+                        <td>TF</td>
+                        <td>LR 1</td>
+                    </tr>
+                    <tr>
+                        <td>10:00AM-01:00PM</td>
+                        <td>CS 126</td>
+                        <td>TH</td>
+                        <td>LAB 1</td>
+                    </tr>
+                    <tr>
+                        <td>01:00PM-02:30PM</td>
+                        <td>CC 104</td>
+                        <td>TW</td>
+                        <td>LR 3</td>
+                    </tr>
+                    <tr>
+                        <td>01:00PM-03:00PM</td>
+                        <td>CS 128</td>
+                        <td>S</td>
+                        <td>LR 3</td>
+                    </tr>
+                    <tr>
+                        <td>01:00PM-03:00PM</td>
+                        <td>PATHFIT 4</td>
+                        <td>F</td>
+                        <td>GYM</td>
+                    </tr>
+                    <tr>
+                        <td>01:00PM-04:00PM</td>
+                        <td>CS 120</td>
+                        <td>M</td>
+                        <td>LAB 1</td>
+                    </tr>
+                    <tr>
+                        <td>03:00PM-05:00PM</td>
+                        <td>CS 124</td>
+                        <td>W</td>
+                        <td>LR 5</td>
+                    </tr>
+                    <tr>
+                        <td>04:00PM-07:00PM</td>
+                        <td>CS 124</td>
+                        <td>S</td>
+                        <td>LR 5</td>
+                    </tr>
+                    <tr>
+                        <td>05:30PM-07:00PM</td>
+                        <td>CS 128</td>
+                        <td>TF</td>
+                        <td>LAB 1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const scheduleBtn = document.getElementById("scheduleBtn");
+        const scheduleModal = document.getElementById("scheduleModal");
+        const closeModal = document.getElementById("closeModal");
+
+        // Show modal when button is clicked
+        scheduleBtn.addEventListener("click", () => {
+            scheduleModal.style.display = "flex";
+        });
+
+        // Hide modal when close button is clicked
+        closeModal.addEventListener("click", () => {
+            scheduleModal.style.display = "none";
+        });
+
+        // Hide modal when clicking outside modal content
+        window.addEventListener("click", (event) => {
+            if (event.target === scheduleModal) {
+                scheduleModal.style.display = "none";
+            }
+        });
+    </script>
+
+</body>
+</html>
